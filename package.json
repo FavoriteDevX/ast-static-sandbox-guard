@@ -1,0 +1,19 @@
+{
+  "name": "ast-static-sandbox-guard",
+  "version": "1.0.0",
+  "description": "High-performance Abstract Syntax Tree (AST) security linter to prevent obfuscated code execution exploits in LLM runtimes.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "acorn": "^8.11.0",
+    "acorn-walk": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
